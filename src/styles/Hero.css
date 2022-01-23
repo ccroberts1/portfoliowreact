@@ -1,0 +1,14 @@
+#hero {
+  background-image: url("../../public/images/herobg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 6rem !important;
+  font-weight: bolder !important;
+  color: var(--dark-theme);
+  text-shadow: 2px 2px #9e837d;
+}
