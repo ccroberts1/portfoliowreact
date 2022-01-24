@@ -15,21 +15,21 @@ const Footer = () => {
           className="btn btn-outline-light btn-floating m-3"
           role="button"
         >
-          <FontAwesomeIcon icon={faGithub} />
+          <FontAwesomeIcon icon={faGithub} /> Github
         </a>
         <a
           href="https://www.linkedin.com/in/caitlincoyroberts/"
           className="btn btn-outline-light btn-floating m-3"
           role="button"
         >
-          <FontAwesomeIcon icon={faLinkedin} />
+          <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
         </a>
         <a
           href="https://twitter.com/caitlincroberts"
           className="btn btn-outline-light btn-floating m-3"
           role="button"
         >
-          <FontAwesomeIcon icon={faTwitter} />
+          <FontAwesomeIcon icon={faTwitter} /> Twitter
         </a>
       </section>
     </footer>

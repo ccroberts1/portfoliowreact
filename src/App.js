@@ -1,7 +1,8 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
-import AboutMe from "./components/AboutMe";
+// import AboutMe from "./components/AboutMe";
+import MyWork from "./components/MyWork";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <div className="container-fluid">
         <div className="row align-items-center">
           <Hero />
-          <AboutMe />
+          <MyWork />
           <Footer />
         </div>
       </div>
