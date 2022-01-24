@@ -1,0 +1,14 @@
+.intro-heading {
+  padding-top: 2rem;
+}
+
+.intro-text {
+  padding: 1rem 5rem;
+  font-size: 1.2rem;
+}
+
+#profile {
+  border-radius: 50%;
+  padding: 1rem 0rem;
+  width: 60%;
+}
