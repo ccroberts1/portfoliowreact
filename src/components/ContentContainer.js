@@ -1,4 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
+import Navbar from "./Navbar";
+import AboutMe from "./pages/AboutMe";
+import ContactMe from "./pages/ContactMe";
+import MyWork from "./pages/MyWork";
+import Resume from "./pages/Resume";
 
 const ContentContainer = () => {
   const [currentPage, setCurrentPage] = useState("About Me");
@@ -19,7 +24,7 @@ const ContentContainer = () => {
 
   return (
     <>
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
     </>
   );
 };

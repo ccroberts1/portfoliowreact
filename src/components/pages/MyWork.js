@@ -1,4 +1,4 @@
-import "../styles/MyWork.css";
+import "../../styles/MyWork.css";
 import Button from "react-bootstrap/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";

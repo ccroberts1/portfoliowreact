@@ -1,6 +1,5 @@
 import "../styles/Navbar.css";
 
-//TODO: Finish conditional rendering for navbar
 function Navbar({ currentPage, handlePageChange }) {
   return (
     <>
@@ -22,7 +21,6 @@ function Navbar({ currentPage, handlePageChange }) {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="#aboutMe"
                   onClick={() => handlePageChange("About Me")}
                   className={
                     currentPage === "About Me" ? "nav-link active" : "nav-link"
@@ -32,19 +30,36 @@ function Navbar({ currentPage, handlePageChange }) {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#myWork">
+                <a
+                  className="nav-link"
+                  onClick={() => handlePageChange("My Work")}
+                  className={
+                    currentPage === "My Work" ? "nav-link active" : "nav-link"
+                  }
+                >
                   My Work
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#contactMe">
+                <a
+                  className="nav-link"
+                  onClick={() => handlePageChange("Contact Me")}
+                  className={
+                    currentPage === "Contact Me"
+                      ? "nav-link active"
+                      : "nav-link"
+                  }
+                >
                   Contact Me
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="./assets/CaitlinRobertsResume.pdf"
+                  onClick={() => handlePageChange("Resume")}
+                  className={
+                    currentPage === "Resume" ? "nav-link active" : "nav-link"
+                  }
                 >
                   Resume
                 </a>

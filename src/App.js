@@ -9,7 +9,7 @@ import ContentContainer from "./components/ContentContainer";
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="container-fluid">
         <div className="row align-items-center">
           <Hero />
