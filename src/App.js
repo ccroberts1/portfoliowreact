@@ -3,7 +3,8 @@ import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 // import AboutMe from "./components/AboutMe";
 // import MyWork from "./components/MyWork";
-import Form from "./components/Form";
+// import ContactMe from "./components/ContactMe";
+import ContentContainer from "./components/ContentContainer";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <div className="container-fluid">
         <div className="row align-items-center">
           <Hero />
-          <ContactForm />
+          <ContentContainer />
           <Footer />
         </div>
       </div>

@@ -1,6 +1,7 @@
 import "../styles/Navbar.css";
 
-const Navbar = () => {
+//TODO: Finish conditional rendering for navbar
+function Navbar({ currentPage, handlePageChange }) {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark">
@@ -19,7 +20,14 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" href="#aboutMe">
+                <a
+                  className="nav-link"
+                  href="#aboutMe"
+                  onClick={() => handlePageChange("About Me")}
+                  className={
+                    currentPage === "About Me" ? "nav-link active" : "nav-link"
+                  }
+                >
                   About Me
                 </a>
               </li>
@@ -47,6 +55,6 @@ const Navbar = () => {
       </nav>
     </>
   );
-};
+}
 
 export default Navbar;
