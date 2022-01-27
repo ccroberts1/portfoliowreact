@@ -3,10 +3,10 @@ import Card from "react-bootstrap/Card";
 
 const Resume = () => {
   return (
-    <div class="col-12">
-      <div class="col-12">
-        <h2 class="text-center">Resume</h2>
-        <p class="lead text-center">
+    <div className="col-12">
+      <div className="col-12">
+        <h2 className="text-center">Resume</h2>
+        <p className="lead text-center">
           Click <a href="../public/CaitlinRobertsResume.pdf">here</a> for a
           downloadable PDF format of my resume
         </p>

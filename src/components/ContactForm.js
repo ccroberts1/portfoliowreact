@@ -9,15 +9,14 @@ function ContactForm() {
   const [email, setEmail] = useState("");
   const [msg, setMsg] = useState("");
 
-  //FIXME: input change not functioning correctly, only works in msg
   const handleInputChange = (e) => {
     const { target } = e;
     const inputType = target.name;
     const inputValue = target.value;
 
-    if (inputType === "contactName") {
+    if (inputType === "userName") {
       setName(inputValue);
-    } else if (inputType === "email") {
+    } else if (inputType === "userEmail") {
       setEmail(inputValue);
     } else {
       setMsg(inputValue);
@@ -39,12 +38,13 @@ function ContactForm() {
   };
 
   return (
-    <div>
+    <div className="d-flex justify-content-center">
       <Form noValidate>
         <Form.Group className="mb-3" controlId="Form.ControlName">
           <Form.Label>Name</Form.Label>
           <Form.Control
             required
+            name="userName"
             onChange={handleInputChange}
             value={contactName}
           ></Form.Control>
@@ -53,6 +53,7 @@ function ContactForm() {
           <Form.Label>Email address</Form.Label>
           <Form.Control
             required
+            name="userEmail"
             onChange={handleInputChange}
             value={email}
             type="email"
@@ -62,13 +63,19 @@ function ContactForm() {
           <Form.Label>Message</Form.Label>
           <Form.Control
             required
+            name="userMsg"
             onChange={handleInputChange}
             value={msg}
             as="textarea"
             rows={3}
           ></Form.Control>
         </Form.Group>
-        <Button variant="dark" type="submit" onClick={handleSubmit}>
+        <Button
+          variant="dark"
+          className="ms-5 mb-5"
+          type="submit"
+          onClick={handleSubmit}
+        >
           Submit
         </Button>
       </Form>

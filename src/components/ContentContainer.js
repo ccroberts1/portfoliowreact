@@ -25,6 +25,7 @@ const ContentContainer = () => {
   return (
     <>
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+      {renderPage()}
     </>
   );
 };
