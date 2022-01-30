@@ -22,7 +22,7 @@ function ContactForm() {
       setMsg(inputValue);
     }
   };
-  //TODO:Validation needs to be when cursor clicks away, not on submit
+
   const handleSubmit = (event) => {
     event.preventDefault();
 
