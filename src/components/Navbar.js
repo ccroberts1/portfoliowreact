@@ -32,9 +32,9 @@ function Navbar({ currentPage, handlePageChange }) {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  onClick={() => handlePageChange("My Work")}
+                  onClick={() => handlePageChange("Project")}
                   className={
-                    currentPage === "My Work" ? "nav-link active" : "nav-link"
+                    currentPage === "Project" ? "nav-link active" : "nav-link"
                   }
                 >
                   My Work

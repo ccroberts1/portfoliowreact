@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "../styles/Form.css";
+// import "../styles/Form.css";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
-import { validateEmail } from "../utils/helpers";
+import { validateEmail } from "../../utils/helpers";
 
 function ContactForm() {
   const [contactName, setName] = useState("");

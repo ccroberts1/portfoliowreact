@@ -1,4 +1,4 @@
-import ContactForm from "../ContactForm.js";
+import ContactForm from "../partials/ContactForm.js";
 const ContactMe = () => {
   return (
     <div className="col-12 d-flex justify-content-center flex-column">
