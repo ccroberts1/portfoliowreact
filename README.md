@@ -6,9 +6,9 @@
 
 Now that I've learned React, I went back and updated my portfolio to run with React instead of HTML and Bootstrap. It still uses Boostrap, but specifically the package built for React. I also incorporated packages for Font Awesome. 
 
-![Screenshot of the deployed app](./screenshot.png)
+![Screenshot of the deployed app](./public/images/screenshot.png)
 
-[Deployed Application](https://jatebycait.herokuapp.com/)
+[Deployed Application](https://caitlincroberts.herokuapp.com/)
 
 ## Table of Contents
 
