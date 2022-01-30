@@ -35,6 +35,10 @@ function ContactForm() {
       alert("Please enter a valid email");
       return;
     }
+    if (!msg) {
+      alert("Please enter a message");
+      return;
+    }
   };
 
   return (

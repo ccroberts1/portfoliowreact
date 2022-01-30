@@ -1,0 +1,8 @@
+#resume a:link {
+  font-weight: bold;
+  color: #040404;
+}
+
+#resume a:hover {
+  color: var(--card-accent);
+}
